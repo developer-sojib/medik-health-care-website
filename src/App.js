@@ -7,7 +7,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Courses from './components/Courses/Courses';
 import Header from './components/Header/Header';
 import Contact from './components/Contact/Contact';
 import Cart from './components/Cart/Cart';
@@ -16,6 +15,8 @@ import About from './components/About/About';
 import SignUp from './components/SignUp/SignUp';
 import NotFound from './components/NotFound/NotFound';
 import AuthProvider from './components/contexts/AuthProvider';
+import Services from './components/Courses/Services';
+import Footer from './Footer/Footer';
 
 
 
@@ -39,8 +40,8 @@ function App() {
             <Route path='/about'>
               <About></About>
             </Route>
-            <Route path='/courses'>
-              <Courses></Courses>
+            <Route path='/services'>
+              <Services></Services>
             </Route>
 
             <Route path='/contact'>
@@ -60,6 +61,7 @@ function App() {
             </Route>
 
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

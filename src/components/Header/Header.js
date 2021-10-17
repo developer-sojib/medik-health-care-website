@@ -16,21 +16,21 @@ const Header = () => {
     const { photoURL, displayName, email } = user;
 
     return (
-        <div>
-            <Navbar bg="dark" expand="lg">
+        <div className='sticky-lg-top'>
+            <Navbar bg="white" className='shadow-sm pt-2 pb-2' expand="lg">
                 <Container>
-                    <Navbar.Brand className='text-white' to="/home"><img width='60px' src={logo} alt="" />Coding Club Institute</Navbar.Brand>
+                    <Navbar.Brand className='fw-bold' to="/home"><img width='100px' src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto align-items-center">
-                            <Nav.Link as={NavLink} className='text-white' to="/home">Home</Nav.Link>
-                            <Nav.Link as={NavLink} className='text-white' to="/about">About</Nav.Link>
-                            <Nav.Link as={NavLink} className='text-white' to="/courses">Courses</Nav.Link>
-                            <Nav.Link as={NavLink} className='text-white' to="/contact">Contact</Nav.Link>
-                            <Nav.Link as={NavLink} className='text-white' to="/cart"><FontAwesomeIcon icon={faShoppingCart} /><Badge className='badge' bg="danger">0</Badge></Nav.Link>
+                            <Nav.Link as={NavLink} className='text-dark fw-bold' to="/home">Home</Nav.Link>
+                            <Nav.Link as={NavLink} className='text-dark fw-bold' to="/about">About</Nav.Link>
+                            <Nav.Link as={NavLink} className='text-dark fw-bold' to="/services">Services</Nav.Link>
+                            <Nav.Link as={NavLink} className='text-dark fw-bold' to="/contact">Contact</Nav.Link>
+                            <Nav.Link as={NavLink} className='text-dark fw-bold' to="/cart"><FontAwesomeIcon icon={faShoppingCart} /><Badge className='badge' bg="danger">0</Badge></Nav.Link>
                             {!user.displayName ? (<>
-                                <Nav.Link as={NavLink} className='text-white' to="/login">Login</Nav.Link>
-                                <Nav.Link as={NavLink} className='text-white' to="/signup">SignUp</Nav.Link>
+                                <Nav.Link as={NavLink} className='text-dark fw-bold' to="/login">Login</Nav.Link>
+                                <Nav.Link as={NavLink} className='text-dark fw-bold' to="/signup">SignUp</Nav.Link>
                             </>) : (
                                 <NavDropdown title={<img style={{ width: '45px', borderRadius: '50%' }} src={photoURL} alt="" />} >
                                     <div className="text-center">
