@@ -6,10 +6,9 @@ import slider2 from './../../images/slider2.jpg'
 import slider3 from './../../images/slider3.jpg'
 import Header from '../../Header/Header';
 import useServices from './../../hooks/useServices';
+import Services from '../../Courses/Services';
 
 const Home = () => {
-    const { services } = useServices({})
-    console.log(services);
     return (
         <>
             <div>
@@ -58,10 +57,21 @@ const Home = () => {
                 </div>
             </div>
             <div className="container mt-5 mb-5">
-                <h3>Our Services</h3>
-                <div className="row col-md-4">
-                    <h3>{services[0]?.name}</h3>
-                    <img src={services?.image} alt="" />
+                <Services></Services>
+            </div>
+            <div className="hurry-up">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 text-start mt-5">
+                            <h1 className="text-primary mb-3">Hurry Up</h1>
+                            <h3 className="mb-3">Hurry Up! Daily Deal Of The Day</h3>
+                            <p>Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit.Donec id tellus lacinia an, tincidunt risus ac, consequat velit</p>
+                            <button className='btn btn-primary'>Buy Now</button>
+                        </div>
+                        <div className="col-md-6">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

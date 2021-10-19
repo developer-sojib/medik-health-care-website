@@ -23,22 +23,22 @@ const About = () => {
                         <div>
                             <img className='img-fluid' src={m2} alt="" />
                         </div>
-                        <h4 className='mt-2'>Alexander</h4>
-                        <p>CEO</p>
+                        <h4 className='mt-2'>Joshua</h4>
+                        <p>Manager</p>
                     </div>
                     <div className="col-md-3">
                         <div>
                             <img className='img-fluid' src={m3} alt="" />
                         </div>
-                        <h4 className='mt-2'>Alexander</h4>
-                        <p>CEO</p>
+                        <h4 className='mt-2'>Olivia</h4>
+                        <p>Supply Manager</p>
                     </div>
                     <div className="col-md-3">
                         <div>
                             <img className='img-fluid' src={m4} alt="" />
                         </div>
-                        <h4 className='mt-2'>Alexander</h4>
-                        <p>CEO</p>
+                        <h4 className='mt-2'>Amelia</h4>
+                        <p>Customer support</p>
                     </div>
                 </div>
             </div>

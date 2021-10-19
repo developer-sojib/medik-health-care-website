@@ -1,0 +1,7 @@
+.hurry-up{
+    background-image: url('./../../../assets/images/banner2.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
