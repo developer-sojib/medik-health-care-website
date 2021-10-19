@@ -1,0 +1,74 @@
+[
+    {
+        "id": 101,
+        "name": "Android Development",
+        "image": "./../src/components/images/p1.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 102,
+        "name": "Android App Marketing",
+        "image": "./../src/components/images/p2.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 103,
+        "name": "Digital Strategy",
+        "image": "./../src/components/images/p3.jpg",
+        "Details": ""
+    },
+    {
+        "id": 104,
+        "name": "Graphics Design",
+        "image": "./../src/components/images/p4.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 105,
+        "name": "Photo Editing",
+        "image": "./../src/components/images/p5.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 106,
+        "name": "Shopify Course",
+        "image": "./../src/components/images/p6.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 107,
+        "name": "WooCommerce Development",
+        "image": "./../src/components/images/p7.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 108,
+        "name": "Wordpress Plugin Development",
+        "image": "./../src/components/images/p8.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 109,
+        "name": "Youtube Marketing",
+        "image": "./../src/components/images/p9.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 110,
+        "name": "Youtube Marketing",
+        "image": "./../src/components/images/p10.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 111,
+        "name": "Youtube Marketing",
+        "image": "./../src/components/images/pdt5.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    },
+    {
+        "id": 112,
+        "name": "Youtube Marketing",
+        "image": "./../src/components/images/p4.jpg",
+        "Details": "we proviet best education system for you amet mauris lobortis mauris inceptos eget. Urna imperdiet"
+    }
+]

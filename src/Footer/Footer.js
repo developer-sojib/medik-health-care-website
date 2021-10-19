@@ -30,13 +30,13 @@ const Footer = () => {
                 </div>
                 <hr />
                 <div className="row">
-                    <div className="col-md-4 text-start">
+                    <div className="col-md-4 col-sm-12 text-start">
                         <h5 className='mb-4'>Contact us</h5>
                         <p>1203 Town Drive 33458 USA</p>
                         <p>+0000 123 456789</p>
                         <p>info@example.com</p>
                     </div>
-                    <div className="col-md-4 text-start">
+                    <div className="col-md-4 col-sm-12 text-start">
                         <h5 className='ms-4'>Help</h5>
                         <ul className='help-list'>
                             <li>Search</li>
@@ -47,7 +47,7 @@ const Footer = () => {
                         </ul>
 
                     </div>
-                    <div className="col-md-4 text-start">
+                    <div className="col-md-4 col-sm-12 text-start">
                         <h5 className='ms-4'>Support</h5>
                         <ul className='help-list'>
                             <li>Contact us</li>
@@ -60,7 +60,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr />
-                <p className='text-center'>MEDIC Website With React © Abdul Awal Sojib 2021 || All Right Reserved</p>
+                <p className='text-center'><b>MEDIK Website With React © Abdul Awal Sojib 2021 || All Right Reserved</b></p>
             </div>
         </div>
     );

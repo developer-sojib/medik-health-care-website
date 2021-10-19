@@ -38,13 +38,13 @@ const Home = () => {
             <div className="meter-area mt-5 mb-5">
                 <div className="container">
                     <div className="row">
-                        <div className="ms-2 col-md-4 bg-light  p-5 rounded text-start">
+                        <div className="col-md-4 col-sm-12 bg-light  p-5 rounded text-start">
                             <h2>Ear Thermometer
                             </h2>
                             <p>This thermotre is on of the best thermoetre in our country. here you get only $250</p>
                             <button className="btn btn-primary">Buy Now</button>
                         </div>
-                        <div className="ms-5 col-md-7 bg-primary  p-5 rounded text-white text-start">
+                        <div className="col-md-7 col-sm-12 bg-primary  p-5 rounded text-white text-start">
                             <h2>Free Shipping
                             </h2>
                             <h1><span className='fw-bold'>35%</span> OFF</h1>
