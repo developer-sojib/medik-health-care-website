@@ -5,8 +5,11 @@ import slider1 from './../../images/slider1.jpg'
 import slider2 from './../../images/slider2.jpg'
 import slider3 from './../../images/slider3.jpg'
 import Header from '../../Header/Header';
+import useServices from './../../hooks/useServices';
 
 const Home = () => {
+    const { services } = useServices({})
+    console.log(services);
     return (
         <>
             <div>
@@ -52,6 +55,13 @@ const Home = () => {
                             <button className="btn btn-light text-primary">See All Products</button>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="container mt-5 mb-5">
+                <h3>Our Services</h3>
+                <div className="row col-md-4">
+                    <h3>{services[0]?.name}</h3>
+                    <img src={services?.image} alt="" />
                 </div>
             </div>
         </>
