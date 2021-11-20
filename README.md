@@ -1,6 +1,6 @@
 # Medik Health Related Wesite
 
-This project live on  [React Assignment-8](https://health-care-website.netlify.app/).
+This project live on  [Medik Health-care Website](https://health-care-website.netlify.app/).
 
 ## This Websites Features
 
